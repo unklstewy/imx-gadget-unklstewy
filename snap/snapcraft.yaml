@@ -3,10 +3,10 @@ summary: NXP i.MX8M Mini EVK support package
 description: |
  Support files for booting i.MX8M Mini EVK board
 
-version: 22-1-6.1.36-2.1.0
+version: 24-1-6.1.36-2.1.0
 type: gadget
 
-base: core22
+base: core24
 
 architectures:
   - build-on: [amd64, arm64]
