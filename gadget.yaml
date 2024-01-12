@@ -23,7 +23,7 @@ volumes:
         # type: C12A7328-F81F-11D2-BA4B-00A0C93EC93B
         size: 200M
         content:
-          # TODO:UC20: install the boot.sel via snapd instead of via the gadget
+          # TODO:UC20: install the boot.sel via snapd instead of via the gadget #Still not doing this in 22.. CA
           - source: boot.sel
             target: uboot/ubuntu/boot.sel
       - name: ubuntu-save
